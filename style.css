@@ -7,14 +7,14 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
   padding: 0;
-  background: linear-gradient(to bottom, #fff0f5, #ffffff);
-  color: #333;
+  background: linear-gradient(to bottom, #e0f7fa, #ffffff);
+  color: #2e3c43;
   line-height: 1.6;
 }
 
 header {
   text-align: center;
-  background: #ff69b4;
+  background: #4dd0e1;
   color: white;
   padding: 2rem 1rem;
   box-shadow: 0 4px 6px rgba(0,0,0,0.1);
@@ -35,7 +35,7 @@ main {
 }
 
 h1, h2, h3 {
-  color: #c2185b;
+  color: #006064;
 }
 
 .video-container {
@@ -63,9 +63,9 @@ footer {
   text-align: center;
   font-size: 0.9rem;
   padding: 2rem 1rem;
-  background: #fce4ec;
+  background: #b2ebf2;
   margin-top: 3rem;
-  color: #555;
+  color: #37474f;
   animation: fadeIn 1.5s ease;
 }
 
@@ -86,7 +86,6 @@ footer {
   transform: scale(1.03);
 }
 
-/* Responsive layout */
 @media(min-width: 600px) {
   .gallery {
     grid-template-columns: repeat(2, 1fr);
@@ -98,7 +97,6 @@ footer {
   }
 }
 
-/* Animations */
 @keyframes fadeInDown {
   from { opacity: 0; transform: translateY(-20px); }
   to { opacity: 1; transform: translateY(0); }
