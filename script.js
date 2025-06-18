@@ -1,0 +1,1 @@
+console.log("UBCH Clean Wig Site Loaded.");
